@@ -1,1 +1,1 @@
-obj1 = null;
+    console.log('acc',acc);
