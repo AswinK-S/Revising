@@ -1,1 +1,1 @@
-    console.log('acc',acc);
+console.log(triple(5));  

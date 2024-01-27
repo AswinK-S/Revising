@@ -1,15 +1,12 @@
-//it is similar to call() method , here the arguments are passed in array
-
-let obj1 = {
+let obj={
     name:'Aswin',
-    display:function(message,b){
-        console.log(message + ' ' + b + this.name);
+    display:function(message){
+        console.log(message + ' ' + this.name);
     }
 }
 
-let obj2 = {
-    name:'Akshay',
+let obj1={
+    name:'Akshay'
 }
 
-let obj3 = obj1.display.bind(obj2,['hello'],['how are you'])
-obj3()
+obj.display.apply(obj1,['hello'])
