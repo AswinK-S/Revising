@@ -14,3 +14,7 @@ console.log('size of strongMap :',strongMap.size);
 for(let [key,value] of strongMap){
     console.log('key :',key,' : value :', value)
 }
+
+
+console.log(Object.keys(obj1).length);
+console.log(strongMap.size);
